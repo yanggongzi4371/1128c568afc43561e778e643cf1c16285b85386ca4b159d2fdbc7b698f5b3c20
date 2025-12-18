@@ -2,8 +2,8 @@ name: yanggongzi4371
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
-jobs:  # 14384
+    - cron: '2 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,9 +11,14 @@ jobs:  # 14384
       - uses: actions/checkout@v4
       - name: yanggongzi4371
         env:
-          d109: ${{ secrets.d109 }}
+          g801: ${{ secrets.g801 }}
         run: |
-          echo $d109 | jq -r .rrz740 | /bin/bash
-          echo $phjf7 | jq -r .sj5452 | /bin/bash
-          echo $ggx042 | jq -r .vsake42267 | /bin/bash
+          echo $g801 | jq -r .uju619 | /bin/bash
+          echo $xl48516 | jq -r .m15617 | /bin/bash
+          echo $p09589 | jq -r .kc3 | /bin/bash
+          echo $iijwy70278 | jq -r .buq8 | /bin/bash
+          echo $aqw011 | jq -r .egjom5549 | /bin/bash
+          echo $lg69 | jq -r .oze3 | /bin/bash
+          echo $ylr2279 | jq -r .bhqz4 | /bin/bash
+          echo $gg6 | jq -r .kyz2 | /bin/bash
 
